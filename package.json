@@ -25,8 +25,7 @@
     "prepare": "tsc",
     "build": "tsc",
     "watch": "tsc --watch",
-    "lint": "eslint src -c .eslintrc.js --ext js,jsx,ts --fix",
-    "postinstall": "tsc --outDir ./dist"
+    "lint": "eslint src -c .eslintrc.js --ext js,jsx,ts --fix"
   },
   "peerDependencies": {
     "@hotwired/stimulus": "^3.1.0"
