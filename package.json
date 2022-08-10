@@ -22,13 +22,12 @@
     "README.md"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
-    "watch": "tsc --watch",
-    "lint": "eslint src -c .eslintrc.js --ext js,jsx,ts --fix",
-    "prepare": "tsc"
+    "lint": "eslint src -c .eslintrc.js --ext js,jsx,ts --fix"
   },
   "peerDependencies": {
-    "stimulus": "^2.0.0 || ^3.0.0"
+    "@hotwired/stimulus": "^3.1.0"
   },
   "devDependencies": {
     "@hotwired/stimulus": "^3.1.0",
